@@ -1,0 +1,6 @@
+<button (click)="toggleNavigation()"> Open Navigation </button> 
+<app-header></app-header>
+
+<app-navigation *ngIf="isOn"></app-navigation>
+
+<router-outlet></router-outlet>
