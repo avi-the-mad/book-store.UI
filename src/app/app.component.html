@@ -1,6 +1,17 @@
-<button (click)="toggleNavigation()"> Open Navigation </button> 
-<app-header></app-header>
+<div class="header">
+  <div class="hamburger" (click)="toggleNavigation()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
 
+  <div class="title">
+    <h1>{{title}}</h1>
+  </div>
+  <div class="welcome-msg">
+    Welcome, {{username}}
+  </div>
+</div>
 <app-navigation *ngIf="isOn"></app-navigation>
 
 <router-outlet></router-outlet>

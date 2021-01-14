@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
   export class AppComponent {
     isOn: boolean = false;
+    username: string = "avithemad";
+    title: string = "THE BOOK STORE";
 
     toggleNavigation() {
       this.isOn = !this.isOn;
