@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+}
+ul > li {
+    font-size: large;
+}
+ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+ul > li:hover {
+    background-color: gray;
+}

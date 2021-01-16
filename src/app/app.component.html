@@ -1,3 +1,6 @@
+<div class="nav-container" *ngIf="isOn">
+  <app-navigation ></app-navigation>
+</div>
 <div class="header">
   <div class="hamburger" (click)="toggleNavigation()">
     <div class="bar"></div>
@@ -12,6 +15,7 @@
     Welcome, {{username}}
   </div>
 </div>
-<app-navigation *ngIf="isOn"></app-navigation>
-
-<router-outlet></router-outlet>
+<div class="main-body" id="main-bod">
+  
+  <router-outlet></router-outlet>
+</div>
