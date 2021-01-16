@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "firstname": "Avinash",
+      "lastname": "Jaykar",
+      "email": "avithemad@gmail.com",
+      "contactno": "7978511530",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+        "name": "A tale of two birds",
+        "author": "Fancy Pants",
+        "img": "images/ATO2B.jpg",
+        "user": {
+            "firstname": "Avinash",
+            "lastname": "Jaykar",
+            "email": "avithemad@gmail.com",
+            "contactno": "7978511530",
+            "id": 2
+          }
+    }
+  ]
+}
