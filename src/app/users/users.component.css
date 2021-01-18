@@ -1,0 +1,31 @@
+h2 {
+    margin-left: 50px;
+    margin-top: 90px;
+    font-weight: 400;
+}
+
+.users-table {
+    display: flex;
+    
+    margin-left: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+th {
+    font-weight: 400;
+    padding: 20px;
+    border-style: groove;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 2px;
+}
+td {
+    font-weight: 100;
+    padding: 20px;
+    border-bottom-style: groove;
+    border-width: 1px;
+}

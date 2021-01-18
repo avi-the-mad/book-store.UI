@@ -1,1 +1,17 @@
-<p>users works!</p>
+<h2>Manage Users</h2>
+<div class="users-table">
+    <table>
+        <tr>
+            <th style="border-left-style:groove">First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th style="border-right-style:groove">Contact</th>
+        </tr>
+        <tr *ngFor="let user of userList">
+            <td style="border-left-style:groove">{{user.firstname}}</td>
+            <td>{{user.lastname}}</td>
+            <td>{{user.email}}</td>
+            <td style="border-right-style:groove">{{user.contact}}</td>
+        </tr>
+    </table>
+</div>

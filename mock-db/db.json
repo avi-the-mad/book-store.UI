@@ -4,22 +4,36 @@
       "firstname": "Avinash",
       "lastname": "Jaykar",
       "email": "avithemad@gmail.com",
-      "contactno": "7978511530",
+      "contact": "7978511530",
       "id": 2
+    },
+    {
+      "firstname": "Abhishek",
+      "lastname": "Jaykar",
+      "email": "jayakarabhi@gmail.com",
+      "contact": "8986881530",
+      "id": 3
+    },
+    {
+      "firstname": "Chie",
+      "lastname": "Jaykr",
+      "email": "kukri@gmail.com",
+      "contact": "8906881530",
+      "id": 4
     }
   ],
   "books": [
     {
-        "name": "A tale of two birds",
-        "author": "Fancy Pants",
-        "img": "images/ATO2B.jpg",
-        "user": {
-            "firstname": "Avinash",
-            "lastname": "Jaykar",
-            "email": "avithemad@gmail.com",
-            "contactno": "7978511530",
-            "id": 2
-          }
+      "name": "A tale of two birds",
+      "author": "Fancy Pants",
+      "img": "images/ATO2B.jpg",
+      "user": {
+        "firstname": "Avinash",
+        "lastname": "Jaykar",
+        "email": "avithemad@gmail.com",
+        "contact": "7978511530",
+        "id": 2
+      }
     }
   ]
 }
