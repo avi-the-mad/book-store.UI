@@ -6,8 +6,7 @@ import { catchError, retry } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-export class UserDataService {
-
+export class BookDataService {
   baseURL: string = "http://localhost:3000/";
 
   constructor(private http: HttpClient) { }
@@ -29,11 +28,11 @@ export class UserDataService {
       'Something bad happened; please try again later.');
   }
 
-  getUsers(): Observable<user[]> {
-    return this.http.get<user[]>(this.baseURL+'users')
+  getBooks(): Observable<book[]> {
+    return this.http.get<book[]>(this.baseURL+'books')
       .pipe(
         catchError(this.handleError)
-    );
-  }
+      );
 
+  }
 }

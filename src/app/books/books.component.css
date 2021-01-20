@@ -1,0 +1,41 @@
+.body {
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2{
+    font-weight: 400;
+}
+li {
+    list-style-type: none;
+}
+.book-list {
+    margin: 0;
+    padding: 0;
+}
+
+.book-card{
+    height: 200px;
+    display: flex;
+    border-style: ridge;
+    margin-bottom: 10px;
+}
+
+.book-image{
+    margin: 10px;
+    flex: 1;
+}
+
+.book-detail{
+    flex: 8;
+}
+
+.book-name{
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.book-author{
+    font-weight: 300;
+    font-style: italic;
+}

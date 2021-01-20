@@ -10,3 +10,10 @@ interface usersTable {
     headers: string[],
     usersList: user[]
 }
+
+interface book{
+    name: string,
+    author: string,
+    img: string,
+    user: user
+  }

@@ -26,7 +26,19 @@
     {
       "name": "A tale of two birds",
       "author": "Fancy Pants",
-      "img": "images/ATO2B.jpg",
+      "img": "https://w3.chabad.org/media/images/695/rhFX6959194.jpg?_i=_n4CA84D5D57C28D2CD55CE5C424EAC03B",
+      "user": {
+        "firstname": "Avinash",
+        "lastname": "Jaykar",
+        "email": "avithemad@gmail.com",
+        "contact": "7978511530",
+        "id": 2
+      }
+    },
+    {
+      "name": "Elon Musk - Space and Energy Man",
+      "author": "Ashlee Vance",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg",
       "user": {
         "firstname": "Avinash",
         "lastname": "Jaykar",
